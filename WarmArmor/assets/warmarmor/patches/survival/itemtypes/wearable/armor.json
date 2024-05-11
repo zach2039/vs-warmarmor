@@ -1,0 +1,33 @@
+[
+	{
+		"file":"game:itemtypes/wearable/armor.json",
+		"op":"addmerge",
+		"path":"/attributesByType",
+		"value":{
+			"armor-body-jerkin-leather": {
+				"warmth": 2
+			},
+			"armor-legs-jerkin-leather": {
+				"warmth": 1
+			},
+			"armor-head-sewn-linen": {
+				"warmth": 1.5
+			},
+			"armor-body-sewn-linen": {
+				"warmth": 3
+			},
+			"armor-legs-sewn-linen": {
+				"warmth": 1.5
+			},
+			"armor-head-tailored-*-linen": {
+				"warmth": 1.5
+			},
+			"armor-body-tailored-*-linen": {
+				"warmth": 3
+			},
+			"armor-legs-tailored-*-linen": {
+				"warmth": 1.5
+			}
+		}
+	}
+]
