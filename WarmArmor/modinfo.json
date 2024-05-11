@@ -1,11 +1,11 @@
 {
-    "type": "content",
+    "type": "code",
     "modid": "warmarmor",
     "name": "Warm Armor",
     "authors": [
         "Zach2039"
     ],
-    "description": "Adds warmth to non-metal armors.",
+    "description": "Adds warmth to non-metal armors; changes armor condition to match current durability.",
     "version": "1.0.0",
     "dependencies": {
         "game": "*"
