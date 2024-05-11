@@ -24,7 +24,9 @@ Changes include:
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
 
- * `PatchEntityBehaviorBodyTemperatureUpdateWearableConditions`: Enables or disables harmony patch that changes how armor with warmth condition is handled; defaults to `true`.
+ * `PatchEntityBehaviorBodyTemperature`: Enables or disables harmony patch that changes how armor with warmth condition is handled for armor; defaults to `true`.
+
+ * `PatchItemWearable`: Enables or disables harmony patch that changes how condition for armor is generated on craft and item creation; defaults to `true`.
 
 
 Future Plans
