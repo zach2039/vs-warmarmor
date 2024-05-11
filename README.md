@@ -12,7 +12,7 @@ Changes include:
 
  * Leather jerkin leg armor provides 1°C of warmth.
 
- * Sewn and tailored Gambeson head armor provides 1.5°C of warmth.
+ * Sewn and tailored Gambeson head armor provides 1°C of warmth.
 
  * Sewn and tailored Gambeson body armor provides 3°C of warmth.
 
