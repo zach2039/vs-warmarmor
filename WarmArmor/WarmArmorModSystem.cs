@@ -75,6 +75,13 @@ namespace WarmArmor
 					harmony.Patch(original1, null, new HarmonyMethod(postfix1));			
 
 					api.Logger.Notification("Applied patch to VintageStory's ItemWearable.OnCreatedByCrafting from Warm Armor!");
+
+					var original2 = typeof(ItemWearable).GetMethod("GetMergableQuantity", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance);
+					var prefix2 = typeof(Patch_ItemWearable_GetMergableQuantity).GetMethod("Prefix", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+					
+					harmony.Patch(original2, new HarmonyMethod(prefix2), null);			
+
+					api.Logger.Notification("Applied patch to VintageStory's ItemWearable.GetMergableQuantity from Warm Armor!");
 				}
 			}
 
