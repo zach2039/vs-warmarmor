@@ -1,3 +1,7 @@
+### v1.19.x-1.1.0
+
+ - Add warmth modifiers for other armors
+
 ### v1.19.x-1.0.1
 
  - Fix issue where armor would eat repair items; you need to repair them in grid now!

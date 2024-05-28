@@ -27,6 +27,57 @@
 			},
 			"armor-legs-tailored-*-linen": {
 				"warmth": 1.5
+			},
+			"armor-head-brigandine-*": {
+				"warmth": 0.5
+			},
+			"armor-body-brigandine-*": {
+				"warmth": 2
+			},
+			"armor-legs-brigandine-*": {
+				"warmth": 1
+			},
+			"armor-body-chain-*": {
+				"warmth": 2
+			},
+			"armor-legs-chain-*": {
+				"warmth": 1
+			},
+			"armor-head-antique-*-pristine": {
+				"warmth": 0.5
+			},
+			"armor-body-antique-*-pristine": {
+				"warmth": 2
+			},
+			"armor-legs-antique-*-pristine": {
+				"warmth": 1
+			},
+			"armor-head-lamellar-*": {
+				"warmth": 0.25
+			},
+			"armor-body-lamellar-*": {
+				"warmth": 1
+			},
+			"armor-legs-lamellar-*": {
+				"warmth": 0.5
+			},
+			"armor-head-plate-*": {
+				"warmth": 0.5
+			},
+			"armor-body-plate-*": {
+				"warmth": 2
+			},
+			"armor-legs-plate-*": {
+				"warmth": 1
+			},
+			"armor-head-scale-*": {
+				"warmth": 0.5
+			},
+			"armor-body-scale-*": {
+				"warmth": 2
+			},
+			"armor-legs-scale-*": {
+				"warmth": 1
 			}
 		}
 	}

@@ -10,9 +10,17 @@ Changes include:
 
  * When armors are given warmth attributes, their condition (which affects warmth given) will now match their durability.
 
- * Leather jerkin body armor provides 2°C of warmth.
+ * Brigadine, scale, and plate head armors provide 0.5°C of warmth.
 
- * Leather jerkin leg armor provides 1°C of warmth.
+ * Leather jerkin, chain, brigadine, scale, and plate body armors provide 2°C of warmth.
+
+ * Leather jerkin, chain, brigadine, scale, and plate leg armors provide 1°C of warmth.
+
+ * Lamellar head armor provides 0.25°C of warmth.
+
+ * Lamellar body armor provides 1°C of warmth.
+
+ * Lamellar leg armor provides 0.5°C of warmth.
 
  * Sewn and tailored Gambeson head armor provides 1°C of warmth.
 
