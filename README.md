@@ -4,7 +4,7 @@ Warm Armor
 Overview
 --------
 
-This mod adds warmth to non-metal armors, as well as changes armor condition to match current durability to prevent always max warmth on armors with `"warmth"` attribute.
+This mod adds warmth to some armor pieces, as well as changes armor condition to match current durability to prevent always max warmth on armors with `"warmth"` attribute.
 
 Changes include:
 

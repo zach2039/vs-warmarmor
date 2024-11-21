@@ -1,6 +1,6 @@
 [
 	{
-		"file":"game:itemtypes/wearable/armor.json",
+		"file":"game:itemtypes/wearable/seraph/armor.json",
 		"op":"addmerge",
 		"path":"/attributesByType",
 		"value":{

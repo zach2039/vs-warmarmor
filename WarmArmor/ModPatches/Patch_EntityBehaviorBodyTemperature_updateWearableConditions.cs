@@ -16,10 +16,10 @@ namespace WarmArmor.ModPatches
 		static void Postfix(EntityBehaviorBodyTemperature __instance, ref float ___clothingBonus, ref ICoreAPI ___api)
 		{
 			EntityAgent entityAgent = __instance.entity as EntityAgent;
-			IInventory gearWorn = (entityAgent != null) ? entityAgent.GearInventory : null;
-			if (gearWorn != null)
+			EntityBehaviorPlayerInventory bh = (entityAgent != null) ? entityAgent.GetBehavior<EntityBehaviorPlayerInventory>() : null;
+			if (((bh != null) ? bh.Inventory : null) != null)
 			{
-				foreach (ItemSlot slot in gearWorn)
+				foreach (ItemSlot slot in bh.Inventory)
 				{
 					ItemStack itemstack = slot.Itemstack;
 					ItemWearable wearableItem = ((itemstack != null) ? itemstack.Collectible : null) as ItemWearable;
