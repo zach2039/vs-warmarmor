@@ -29,7 +29,7 @@ Changes include:
  * Sewn and tailored Gambeson leg armor provides 1.5°C of warmth.
 
 
-Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
+Config Settings (`VintageStoryData/ModConfig/WarmArmor.json`)
 --------
 
  * `PatchEntityBehaviorBodyTemperature`: Enables or disables harmony patch that changes how armor with warmth condition is handled for armor; defaults to `true`.
