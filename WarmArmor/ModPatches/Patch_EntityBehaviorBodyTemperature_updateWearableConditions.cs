@@ -31,7 +31,9 @@ namespace WarmArmor.ModPatches
 						float maxDurability = wearableItem.GetMaxDurability(itemstack);
 						float currentDurability = wearableItem.GetRemainingDurability(itemstack);
 						float conditionFromDurability = Math.Clamp(currentDurability / maxDurability, 0.0f, 1.0f);
-						WarmArmorModSystem.SetSlotCondition(___api, slot, conditionFromDurability);
+						float lastCondition = WarmArmorModSystem.GetSlotCondition(___api, slot);
+						if (conditionFromDurability != lastCondition)
+							WarmArmorModSystem.SetSlotCondition(___api, slot, conditionFromDurability);
 					}
 				}
 			}

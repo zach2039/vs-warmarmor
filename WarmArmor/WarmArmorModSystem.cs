@@ -171,5 +171,11 @@ namespace WarmArmor
 			slot.Itemstack.Attributes.SetFloat("condition", GameMath.Clamp(setVal, 0f, 1f));
 			slot.MarkDirty();
 		}
-	}
+
+        public static float GetSlotCondition(ICoreAPI api, ItemSlot slot)
+        {
+            EnsureConditionExistsForSlot(api, slot);
+            return slot.Itemstack.Attributes.GetFloat("condition", 0.0f);
+        }
+    }
 }

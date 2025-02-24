@@ -1,3 +1,7 @@
+### v1.20.x-1.2.1
+
+- Change condition set on armor during warmth calc to only change last condition does not equal current calculated
+
 ### v1.20.x-1.2.0
 
  - Update to VS v1.20.x
