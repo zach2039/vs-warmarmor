@@ -1,6 +1,6 @@
 ### v1.20.x-1.2.1
 
-- Change condition set on armor during warmth calc to only change last condition does not equal current calculated
+- Change condition set on armor during warmth calc to only change last condition does not equal current calculated; somewhat fixes stutter issue when using Rustbound Magic
 
 ### v1.20.x-1.2.0
 
