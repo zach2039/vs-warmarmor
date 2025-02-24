@@ -46,4 +46,4 @@ Future Plans
 Known Issues
 --------
 
- * None, atm.
+ * ~~Compat issues with Rustbound Magic, causing stutters every several seconds.~~ Mostly fixed in v1.2.1.
