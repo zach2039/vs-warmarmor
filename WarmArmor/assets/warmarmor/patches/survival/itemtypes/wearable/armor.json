@@ -2,83 +2,39 @@
 	{
 		"file":"game:itemtypes/wearable/seraph/armor.json",
 		"op":"addmerge",
-		"path":"/attributesByType",
+		"path":"/attributes/warmthByType",
 		"value":{
-			"armor-body-jerkin-leather": {
-				"warmth": 2
-			},
-			"armor-legs-jerkin-leather": {
-				"warmth": 1
-			},
-			"armor-head-sewn-linen": {
-				"warmth": 1
-			},
-			"armor-body-sewn-linen": {
-				"warmth": 3
-			},
-			"armor-legs-sewn-linen": {
-				"warmth": 1.5
-			},
-			"armor-head-tailored-*-linen": {
-				"warmth": 1
-			},
-			"armor-body-tailored-*-linen": {
-				"warmth": 3
-			},
-			"armor-legs-tailored-*-linen": {
-				"warmth": 1.5
-			},
-			"armor-head-brigandine-*": {
-				"warmth": 0.5
-			},
-			"armor-body-brigandine-*": {
-				"warmth": 2
-			},
-			"armor-legs-brigandine-*": {
-				"warmth": 1
-			},
-			"armor-body-chain-*": {
-				"warmth": 2
-			},
-			"armor-legs-chain-*": {
-				"warmth": 1
-			},
-			"armor-head-antique-*-pristine": {
-				"warmth": 0.5
-			},
-			"armor-body-antique-*-pristine": {
-				"warmth": 2
-			},
-			"armor-legs-antique-*-pristine": {
-				"warmth": 1
-			},
-			"armor-head-lamellar-*": {
-				"warmth": 0.25
-			},
-			"armor-body-lamellar-*": {
-				"warmth": 1
-			},
-			"armor-legs-lamellar-*": {
-				"warmth": 0.5
-			},
-			"armor-head-plate-*": {
-				"warmth": 0.5
-			},
-			"armor-body-plate-*": {
-				"warmth": 2
-			},
-			"armor-legs-plate-*": {
-				"warmth": 1
-			},
-			"armor-head-scale-*": {
-				"warmth": 0.5
-			},
-			"armor-body-scale-*": {
-				"warmth": 2
-			},
-			"armor-legs-scale-*": {
-				"warmth": 1
-			}
+			"armor-body-jerkin-leather": 2,
+			"armor-legs-jerkin-leather": 1,
+			"armor-head-sewn-linen": 1,
+			"armor-body-sewn-linen": 3,
+			"armor-legs-sewn-linen": 1.5,
+			"armor-head-tailored-*-linen": 1,
+			"armor-body-tailored-*-linen": 3,
+			"armor-legs-tailored-*-linen": 1.5,
+			"armor-head-brigandine-*": 0.5,
+			"armor-body-brigandine-*": 2,
+			"armor-legs-brigandine-*": 1,
+			"armor-body-chain-*": 2,
+			"armor-legs-chain-*": 1,
+			"armor-head-antique-*-broken": 0.25,
+			"armor-body-antique-*-broken": 1.0,
+			"armor-legs-antique-*-broken": 0.5,
+			"armor-head-antique-*-damaged": 0.375,
+			"armor-body-antique-*-damaged": 1.5,
+			"armor-legs-antique-*-damaged": 0.75,
+			"armor-head-antique-*-pristine": 0.5,
+			"armor-body-antique-*-pristine": 2,
+			"armor-legs-antique-*-pristine": 1,
+			"armor-head-lamellar-*": 0.25,
+			"armor-body-lamellar-*": 1,
+			"armor-legs-lamellar-*": 0.5,
+			"armor-head-plate-*": 0.5,
+			"armor-body-plate-*": 2,
+			"armor-legs-plate-*": 1,
+			"armor-head-scale-*": 0.5,
+			"armor-body-scale-*": 2,
+			"armor-legs-scale-*": 1
 		}
 	}
 ]
