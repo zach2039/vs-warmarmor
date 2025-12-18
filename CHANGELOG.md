@@ -1,4 +1,4 @@
-### v1.26.x-2.0.0
+### v1.21.x-2.0.0
 
 - Convert to content-only mod now that VS-1.21.x adds warmth attribute (thanks to Nico\_Nico\_Nyx!)
 
