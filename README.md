@@ -34,5 +34,5 @@ Notable mods that add similar
 --------
 
 - [Warm Gambeson](https://mods.vintagestory.at/warmgambeson)
-  - Adds warmth to gambeson armor. Thanks to Nico_Nico_Nyx for this mod, and including how to port WarmArmor to content-only. If you want a more balanced approach to armor, with only gambesons providing warmth, check this mod out.
+  - Adds warmth to gambeson armor. Thanks to Nico_Nico_Nyx for this mod and sharing knowledge on how to port WarmArmor to a content-only mod. If you want a more balanced approach to armor, with only gambesons providing warmth, check this mod out.
 
